@@ -1,0 +1,25 @@
+.sign-up {
+    max-width: 500px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 5em 2em;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    flex-direction: column;
+    gap: 14px;
+
+
+}
+.auth-form{
+    padding: 3em 1em;
+    height: 100%;
+    border-radius: 2mm;
+    background-color: rgb(156, 220, 254);
+}
+.page-title{
+    font-size: 2rem;
+    margin-bottom: 1em;
+    text-align: center;
+
+}
