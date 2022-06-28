@@ -1,0 +1,37 @@
+.sign-in {
+    max-width: 500px;
+    width: 100%;
+    background-color:antiquewhite;
+    padding: 5em 2em;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    flex-direction: column;
+    gap: 14px;
+
+}
+.sign-in-form{
+    padding: 3em 1em;
+    height: 100%;
+    border-radius: 2mm;
+    background-color: rgb(165, 227, 250);
+}
+.page-title{
+    font-size: 2rem;
+    margin-bottom: 1em;
+    text-align: center;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .btn-primary{
+    background-color: #B5FFE1;
+    border-color: #B5FFE1;
+    gap: 4px;
+  }
+  .btn-primary:hover{
+      background-color: greenyellow;
+  }
