@@ -1,0 +1,81 @@
+.college {
+    max-width: 500px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 4em 2em;
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .college-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(173, 224, 249);
+    padding: 2em 1em;
+    border-radius: 2mm;
+  }
+  .todo-list {
+    padding: 0;
+    list-style: none;
+  }
+  .college-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 0;
+  }
+  .college-item + .college-item {
+    border-top: 1px solid #dddddd;
+  }
+
+  .college-action {
+    display: inline-flex;
+    gap: 8px;
+  }
+  .btn-delete {
+    color: tomato;
+  }
+  .college-action > * {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: transform 350ms ease-out;
+  }
+  .college-action > *:hover {
+    transform: scale(1.1)
+  }
+  .college-action a {
+    text-decoration: none;
+    color: blue;
+  }
+  .input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .btn-primary{
+    background-color: #B5FFE1;
+    border-color: #B5FFE1;
+    gap: 4px;
+  }
+  .btn-primary:hover{
+      background-color: #21bcf4;
+  }
+    
+  .input-control{
+    padding: 0.5em 1em;
+  }
+  .todos-item--completed {
+    text-decoration: line-through;
+  }
